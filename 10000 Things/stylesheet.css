@@ -1,0 +1,8 @@
+#activate{
+    font-size:large;
+}
+#controls{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}

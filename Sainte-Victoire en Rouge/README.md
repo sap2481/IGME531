@@ -1,0 +1,3 @@
+This program runs on its own, generating both the recreation and variation of Sainte-Victoire en Rouge from a script attached to the webpage.
+The primitive SVG generation components can be foun within main.js of this program, near the top of the script. These will be relocated upon completion of this project to a stored library where they can be referenced in the future. The script contains five functions for five different SVG elements: rects, circles, ellipses, polygons, and lines.
+My variation of the Sainte-Victoire en Rouge is self-titled 'Clouds of Blue and Skies of White', a play on / mixing up of words. I used circles for the generation of the shapes, altering their blue hues and their radii but keeping the same general shape and format of the original.
