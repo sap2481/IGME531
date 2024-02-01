@@ -103,7 +103,7 @@ for (let i = 0; i < 4; i++){ //ROWS
         for (let i = 0; i < getRandom(2,4); i++){ //INNER SHAPES
 
             //Create Polyline Diamond (this works, but you can fuck with the randomness a lil for added flavor later)
-            document.querySelector(`#group${groupNum}`).innerHTML += polyline([`${groupX},${groupY}`, `${groupX + scaleNum},${groupY + scaleNum}`, `${groupX},${groupY + (scaleNum * 2)}`, `${groupX - scaleNum},${groupY + scaleNum}`, `${groupX},${groupY}`]);
+            document.querySelector(`#group${groupNum}`).innerHTML += polyline([`${groupX},${groupY}`, `${groupX + getRandom(scaleNum-1, scaleNum+1)},${groupY + getRandom(scaleNum-1, scaleNum+1)}`, `${groupX},${groupY + (getRandom(scaleNum-1, scaleNum+1) * 2)}`, `${groupX - getRandom(scaleNum-1, scaleNum+1)},${groupY + getRandom(scaleNum-1, scaleNum+1)}`, `${groupX},${groupY}`]);
             scaleNum--;
         }
 
